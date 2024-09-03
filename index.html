@@ -6,15 +6,50 @@
     <title>Home</title>
 </head>
 <body>
-    <header>
-        <h1>Home</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">contato</a></li>
+    <header class="site-header"> 
+        <h1 class="site-title"> 
+        <nav class="main-nav">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="pages/sobre.html" class="nav-link">Sobre</a></li>
+                <li class="nav-item"><a href="pages/contato.html" class="nav-link">contato</a></li>
             </ul>
         </nav>
     </header>
+
+    <main class="main-content">
+        <article class="article">
+            <header class="article-header">
+                <h2 class="article-title">Bem Vindo ao Meu Site</h2>
+                <p class="section-text">Texto aleatorio na aula de marcação web!</p>
+            </header>
+            <section class="article-content">
+                <h3 class="section title">Introdução</h3> 
+                <p class="section-text">Este conteudo pré introdutório do artigo</p>
+        </article>
+
+        <figure class="image-figure">
+            <img src="./img/totoro.jpg" alt="Totoro" class="article.image">
+            <figcaption class="image-caption">Totoro</figcaption>
+        </figure>
+        <audio controls class="audio.player">
+            <source src="./media/audio.mp3" type="audio/mp3">Seu navegador não suporta o elemento
+            <code>audio</code>
+
+        </audio>
+    </section>
+    </article>
+<aside class="sidebar">
+    <h2 class="sidebar-title">Informações adicionais</h2>
+    <p class="section-text">Texto Aleatório na aula de marcação</p>
+</aside>
+</main>
+<footer class="site-footer">
+    <address class="contact-info">
+        <p class="author-name">Autor: Sarah Ribeiro</p>
+        <p class="author-email">Email<a href="mailto:sarah.r.barros@aluno.sesi.br" class="email-link">sarah.r.barros@aluno.senai.br</a></p>
+    </address>
+    <p class="copy-info">&copy; 2024 - Todos os direitos reservados</p>
+</footer>
 </body>
 </html>
